@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8"/>
+        <title>My Website</title>
+        <link href="_static\style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="scripts\switch_display.js"></script>
+    </head>
+    <body>
+        <nav>
+            <h1>Alexandre Jeanne</h1>
+            <div id="grid-item2">
+                <button onclick="displayaboutme()" class="button-1" role="button">About Me</button>
+                <button onclick="displaystudies()" class="button-2" role="button">My Studies</button>
+                <button onclick="displayexp()" class="button-3" role="button">My Experiences</button>
+                <button onclick="displayskill()" class="button-4" role="button">My Skills</button>
+            </div>
+
+            <div id="grid-item3">
+                <a href="mailto:alexandrej16@gmail.com" style="text-decoration: none; ">
+                    <img id="contact-logo" src="_static\images\gmail-logo.png" > 
+                </a>
+                <a href="https://www.linkedin.com/in/alexandre-jeanne-058a51135/" target="_blank" style="text-decoration: none; ">
+                    <img id="contact-logo" src="_static\images\linkedin-logo.png">
+                </a>
+                <a href="https://github.com/Alexj16" target="_blank" style="text-decoration: none; ">
+                    <img id="contact-logo" src="_static\images\github-logo.png">
+                </a>
+                <a href="_static/download/CV_Alexandre_JEANNE_(EN_version).pdf" download target="_blank" style="text-decoration: none; ">
+                    <img id="contact-logo" src="_static\images\cv-icon.png">
+                </a>
+            </div>
+
+            <div id="flag-logo">
+                <a href="index_fr.html" style="text-decoration: none; ">
+                    <img src="_static\images\fr-logo.png" width="30" height="30">
+                </a>
+                <a style="text-decoration: none; ">
+                    <img src="_static\images\uk-logo.png" width="30" height="30">
+                </a>
+            </div>
+        </nav>
+        <section id="home">
+            <img id="picture_of_me" src="_static\images\me_600x600.jpg">    
+        </section>
+        <section id="aboutme">
+            <img id="picture_of_me" src="_static\images\me_600x600.jpg" width="200" height="200"> 
+            <h2>Who am I?</h2>
+            <p id="paragraphes">
+            My name is Alexandre. I am a 29-years-old engineer. I was born France, and I completed most of my studies in Lyon and Strasbourg.
+            During my studies, I had the opportunity to spend a lot of time in Germany and in Switzerland, where I improved 
+            my skills in English and German. Today, I have been living in Lausanne, Switzerland, for 3 years, where I started my
+            career as Quantitative Biology Engineer.
+            </p>
+            <h2>My journey in the biotechnologies</h2>
+            <p id="paragraphes">
+            <img id="esbs-picture" src="_static\images\esbs.png" width="300"> 
+            I have always been interested in science, mostly biology.
+            Therfore it was a natural choice for me to turn toward biotechnologies. I spent 7 years learning to work in the laboratory. 
+            In engineering school, I developed an interest for molecular biology and genetics, for which I had the chance to reach 
+            the state-of-the-art thanks to a teaching form ESBS and IGBMC professor.
+            After dedicating these years to biotechnology I decided to move forward into my second strong interests, 
+            programming. I find it fascinating to merge lab work with new technologies. 
+            The emergence of high-throughput technologies creates a necessity for having a new generation of biologists 
+            capable of understanding the challenges of two fields which are so different but which have a lot to bring 
+            each other. It is as a data scientist and quantitative biologist that I would like to steer my career.
+            </p>
+            <h2>My career in computer vision</h2>
+            <p id="paragraphes">   
+            <img id="heidelberg-picture" src="_static\images\heidelberg3.jpg">        
+            This challenge brought me to work in computer vision for bioimages analysis.
+            First, for Acquifer where I learned the basics of this new field for me under the direction of Dr L.Thomas.
+            Then for Nanolive where I had the chance to do my master thesis under the direction of Dr M.Fréchin and then to work for 3 years as 
+            Quantitative Biology Engineer. 
+            <img id="lausanne-picture" src="_static\images\lausanne.jpg">   
+            This experience taught me the life in industry, its challenges, its work, 
+            but it also gave me the opportunity to work on wonderful project in collaboration with my colleagues and 
+            external partners. An scientific paper written in collaboration with the Pasteur Institute summarize perfectly 
+            the culmination of my journey at Nanolive and the quality I reached. <a href="https://www.biorxiv.org/content/10.1101/2023.11.16.567378v1" target="_blank">Dynamic label-free analysis of SARS-CoV-2 infection reveals virus-induced subcellular remodeling</a>
+            </p>
+            <figure>
+                <img id="figure" src="_static\images\mitochondria.png">
+                <figcaption>Figure 2F: mitochondria detection within refractive index images with their respective
+                    fluorescent label signal. Structures are thicker when visualized with epifluorescence
+                    microscopy compared to holotomography
+                </figcaption>
+            </figure>
+            <figure>
+                <img id="figure" src="_static\images\nuclei.png">
+                <figcaption>Figure 3A: 36 hours-long holotomographic microscopy (HTM) time lapse
+                    acquisition of U2OS cells infected by the Wuhan SARS-CoV-2 strain. Pink: nuclei. Green:
+                    nucleoli.
+                </figcaption>
+            </figure>
+            </br>
+            <h2>My life apart work</h2>
+            <p id="paragraphes">
+            <img id="logo" src="_static\images\20km-logo.png" height="50">
+            <img id="logo" src="_static\images\cph-logo.png" height="50">
+            <img id="logo" src="_static\images\fuji-logo.png" height="50">
+            <span> Apart from my work, I developed a passion for running. For 3 years, I have been training regularly and participating in 
+            running events. I have already participated in Lausanne 20km twice, the Lausanne and Copenhagen half-marathons and the 100km of the Mt.Fuji International Marathon Winter Virtual Race. 
+            My next upcoming challenges is an entire marathon for which I am training (and probably some other 20km+ race in between).
+            </br>
+            <img id="lilith-picture" src="_static\images\lilith.jpg" width="150">   
+            When I found some free time, I also enjoy hiking and visiting new places. 
+            When I stay at home I spent most of my time reading, coding for myself and playing board games 
+            or video games.
+            </span>
+            </p>
+        </section>
+        <section id="studies">
+                <h1>Educations</h1>
+                <div>
+                    <div id="date">From 2016 to 2020:</div>
+                    <img id="logo" src="_static\images\esbs-logo.png" height="90">
+                    <h3>Student in biotechnologies engineering school, Option High Throughput Biotechnologies at <a href="https://esbs.unistra.fr/en/" target="_blank">ESBS (Ecole Supérieure de Biotechnologie de Strasbourg)</a></h3>
+                    <p>Illkirch-Graffenstaden, France.</p>
+                    <p id="paragraphes">The ESBS is an engineering school covering a large scope of different domains of biotechnologies, including for example immunotechonology, biochemistry, microbiology, structural biology or virology. The teaching were on the theory as well as on the practice. I first decided to specialized through internships in genetic and molecular biology, but then my fascination for new technologies made me gain in interest for high-throughput biotechnologies and machine-learning. It is also at the ESBS that I greatly improve my English and German skills, the courses being taught in French, English and German.</p>
+                    <hr id="hline"/>
+                    <div id="date">From 2018 to 2020:</div>
+                    <img id="logo" src="_static\images\unis-logo.png" height="90">
+                    <h3>Master High Throughput Biotechnologies, With honours at University of Strasbourg</h3>
+                    <p>Strasbourg, France.</p>
+                    <p id="paragraphes">This master made in parallel with the three last semester of the ESBS includes formations in Data treatment, High-throughput biotechnology, Comparative biology and Human genetics.</p>
+                    <hr id="hline"/>
+                    <div id="date">From 2014 to 2016:</div>
+                    <h3>Two-year intensive courses in Technology and Biology, that prepares to the competition for entering engineering schools at La Martinière Duchère High school</h3> 
+                    <p>Lyon, France.</p>
+                    <p id="paragraphes">These two-year intensive courses, call CPGE in France, gave me a strong background in all fields necessary to integrate an engineering school, which include biotechnologies, mathematics, chemistry, biochemistry, physic, and python programming.</p>
+                    <hr id="hline"/>
+                    <div id="date">From 2012 to 2014:</div>
+                    <h3>Baccalaureate STL (Laboratory, Sciences and Technologies), with distinction at Louise Michel High school</h3>
+                    <p>Grenoble, France.</p>
+                    <p id="paragraphes">STL is a formation where I learned basics of biotechnologies and good practice of laboratory for two years.</p>
+                </div>
+            </section>
+        </section>
+        <section id="exp">
+                <h1>My Career and Experiences</h1>
+                <div id="data_science">
+                    <div id="experiences">
+                        <div id="date">Since February 2nd, 2021:</div>
+                        <img id="logo" src="_static\images\nanolive-logo.png">
+                        <h3 id="jobs">Quantitative Biology Engineer at <a href="https://www.nanolive.ch/" target="_blank">NANOLIVE</a></h3>
+                        <p id="locations">Tolochenaz, Switzerland</p>
+                        <p id="paragraphes">For over 3 years, my work at Nanolive involved developing machine-learning/deep-learning-based assays for the segmentation of subcellular objects, such as mitochondria, the nucleus and nucleoli, in holotomography.
+                            </br>This work encompassed:
+                            <ul>
+                                <li> Developing  my own application on WxPython and PyQt5 to make labels</li>
+                                <li> Elaborating relevant training and testing sets, to optimize our strategies of training, and to evaluate the performances of our models.</li>
+                                <li> I also participated in data segmentation and data analysis for article writing, including a collaboration with Pasteur Institute on its way to be published.</li>
+                            </ul>
+                        </p>
+                        <p id="keywords">Programming in Python, Machine-learning, Deep-learning, Data analysis, CellProfiler, Subcellular object segmentation, Git, GitHub, PyQt5, WxPython, Anaconda, Software prototype development</p>
+                    </div>
+                    <hr id="hline"/>
+                    <div id="experiences">
+                        <div id="date">From March 2nd to August 28th, 2020:</div>
+                        <img id="logo" src="_static\images\nanolive-logo.png">
+                        <h3 id="jobs">Master Thesis at <a href="https://www.nanolive.ch/" target="_blank">NANOLIVE</a>: Deep-Learning for cellular segmentation in Holo-tomographic volumes.</h3>
+                        <p id="locations">Tolochenaz, Switzerland. Under the direction of Dr. M.Fréchin</p>
+                        <p id="paragraphes">During my master's thesis at Nanolive, I focused on developing a Deep-learning solution based on U-Net for cell segmentation in holotomography
+                            <ul>
+                                <li>I optimized our training strategy by creating a relevant training and testing set.</li>
+                                <li>Coding functions for data augmentation and image preprocessing.</li>
+                                <li>Finally, I compiled my custom version of CellProfiler and developed a plugin to implement U-Net predictions in a CellProfiler pipeline.</li>
+                            </ul>
+                        </p>
+                        <p id="keywords">Programming in Python, Deep-learning, Pytorch, Cell segmentation, Images analysis, CellProfiler, Anaconda</p>
+                    </div>
+                    <hr id="hline"/>
+                    <div id="experiences">
+                        <div id="date">From November 18th to December 20th, 2019:</div>
+                        <h3 id="jobs">Training at <a href="https://www.pcbis.fr/" target="_blank">PCBIS</a>: Automatize high-throughput enzymatic screening data analysis.</h3>
+                        <p id="locations">Illkirch-Graffenstaden, France. Under the direction of S. Gioria.</p>
+                        <p id="paragraphes">
+                            <ul>
+                                <li>High-Throughput enzymatic screening including sample preparation in 384-well plate and robotic pipetting.</li>
+                                <li>Data analysis, candidate selection, cherry-picking.</li>
+                                <li>UI coding to build an analysing tool generating reports.</li>
+                            </ul>
+                        </p>
+                        <p id="keywords">Programming in Python, Enzymatic screening, High-throughput screening, Robotic pipetting, Excel, GUI coding</p>
+                    </div>
+                    <hr id="hline"/>
+                    <div id="experiences">
+                        <div id="date">From July 1st to August 30th, 2019:</div>
+                        <img id="logo" src="_static\images\acquifer-logo.png">
+                        <h3 id="jobs">Internship at <a href="https://www.acquifer.de/" target="_blank">ACQUIFER</a>: Setting up of Machine-Learning and Deep-Learning methods for bioimages analysis in high content screening.</h3>
+                        <p id="locations">Heidelberg, Germany. Under the direction of Dr. L.Thomas.</p>
+                        <p id="paragraphes">
+                            <ul>
+                                <li>Learning the basic of computer vision.</li>
+                                <li>Developing objects detection solutions based on Haar Cascade Classifier.</li>
+                                <li>Developing objects detection and classification solutions based on CNN and using transfer learning.</li>
+                                <li>Developing KNIME workflow to automatize multistep data analysis on brightfield images.</li>
+                            </ul>
+                        </p>
+                        <p id="keywords">Programming in Python, Machine-learning, Deep-learning, MxNet, Objects detection, Images analysis, FIJI, KNIME</p>
+                    </div>
+                </div>
+                <hr id="hline"/>
+                <div>
+                    <div id="experiences">
+                        <div id="date"> July 9th to August 30th, 2018: </div>
+                        <img id="logo" src="_static\images\cnrs-logo2.png">
+                        <h3 id="jobs">Internship at <a href="https://bsc.unistra.fr/en/" target="_blank">CNRS, UMR 7242</a>: Preliminary study of a new epigenetic regulator in the cell.</h3>
+                        <p id="locations">Illkirch-Graffenstaden, France. Under the direction of Pi. M.Weber and Dr. E.Héberlé.</p>
+                        <p id="keywords">PCR, Cloning, Cells culture, Flow cytometry, Design of guides RNA, Transfection, Protein, DNA and RNA purification</p>
+                    </div>
+                    <hr id="hline"/>
+                    <div id="experiences">
+                        <div id="date">From May 15th to August 31st, 2017: </div>
+                        <img id="logo" src="_static\images\ifb-logo.png">
+                        <h3 id="jobs">Internship at <a href="http://www.plantphotobiology.org/" target="_blank">Department of Molecular Plant Physiology</a>: Expression of phytochromes in E.coli and molecular characterization of purified photoactive phytochromes.</h3> 
+                        <p id="locations">INSTITUTE OF BIOLOGIE II, Freiburg-Im-Breisgau, Germany. Under the direction of Pi. A.Hiltbrunner and Dr. C.Klose.</p>
+                        <p id="keywords">PCR, Cloning (Gibson cloning), Western blot, SDS-PAGE, Protein purification</p>
+                    </div>
+                </div>
+        </section>
+        <section id="skills">
+            <h1>Hard and Soft Skills:</h1>
+            <div id="lan">
+                <h2>Languages:</h2>
+                <!--<img id="languages-logo" src="_static\images\fr-logo.png">-->
+                <p>French: Native speaker</p>
+                <!--<img id="languages-logo" src="_static\images\uk-logo.png">-->
+                <p>English: Advanced</p>
+                <!--<img id="languages-logo" src="_static\images\ge-logo.png">-->
+                <p>German: Intermediate</p>
+                <!--<img id="languages-logo" src="_static\images\es-logo.png">-->
+                <p>Spanish: Beginner</p>
+            </div>
+            <div id="soft-skill">
+                <h2>Soft Skills:</h2>
+                Adaptability</br>Time management</br>Motivation</br>Problem solving</br>Critical thinking</br> Work ethic
+            </div>
+            </br>
+            <div id="coding">    
+                <h2>Coding:</h2>
+                <h3>Tools:</h3>
+                Git/GitHub</br>Conda/pip</br>Spyder/VsCode/Jupyter
+                </br>
+                <h3>Programming Languages:</h3>
+                <img id="coding-logo" src="_static\images\python-logo.png">
+                <p id="span_title">Python3.X: Advanced:</p>
+                Machine-Learning/Deep-Learning:<span id="span_ele"> Computer Vision, U-Net, Pytorch, Tensorflow</span>
+                </br>
+                Data Science:<span id="span_ele"> OpenCV, Scikit-Image, Scikit-Learn, Pandas, Scipy</span>
+                </br>
+                Data Visualisation:<span id="span_ele"> Matplotlib, Seaborn, Plotly</span>
+                </br>
+                UI Coding:<span id="span_ele"> PyQt5, WxPython, TkInter</span>
+                </br>
+                DataBase/WebDev: <span id="span_ele">Django (Notion)</span>
+                </br>
+                <p>
+                    <img id="coding-logo" src="_static\images\pack_office-logo.png">
+                    <p id="span_title">Pack Office: Advanced</p>
+                    Word</br>Excel</br>PowerPoint</br>Outlook</br>VBA (Notion)
+                </p>
+                <p>
+                    <img id="coding-logo" src="_static\images\web_dev-logo.png">
+                    <p id="span_title">Web Development: Beginner</p>
+                    HTML5</br>CSS3</br>JavaScript
+                </p>
+                <p id="span_title">Other Languages: Beginner/Notion</p>
+                    MySql</br>R</br>C++</br>Python 2.X
+            </div>
+            <div id="lab">
+                <h2>Laboratory:</h2>
+                Good Practices of Laboratory
+                </br></br>
+                <span id="span_title">Microscopy:</span>
+                </br><span id="span_ele">
+                Fluorescence Microscopy</br>Holotomography Microscopy</span>
+                </br></br>
+                <span id="span_title">Molecular Biology:</span><span id="span_ele">
+                </br>Nucleotide extraction</br>Cloning</br>Electrophoresis</br>Bacterial Transformation</span>
+                </br></br>
+                <span id="span_title">Cell Culture:</span><span id="span_ele">
+                </br>Maintenance of cell lines</br>Sample preparation</br>Transfection</span>
+                </br></br>
+                <span id="span_title">Flux Cytometry:</span><span id="span_ele">
+                </br>FACS</br>Cell Counting</span>
+                </br></br>
+                Pipeting Robots
+                </br>
+                Microbiology
+                </br>
+                Biophysics
+            </div>
+        </section>
+    </body>
