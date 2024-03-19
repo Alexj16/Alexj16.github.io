@@ -10,14 +10,14 @@
     font-weight: 600;
     font-size: 10px;
     line-height: 10px;
-    width: 110px;}
+    width: 80px;}
   #home #picture_of_me{width: 200px;}
   section{margin: 1% 1%;
     float: inline-end;
     height: 75%;
     width: 98%;}
   #qrcode{height: 100px;}
-  #figure{height: 100px;}
+  #figure{height: 80px;}
   #heidelberg-picture{width: 150px;}
   #lausanne-picture{width: 150px;}
   #logo{height: 60px;}
