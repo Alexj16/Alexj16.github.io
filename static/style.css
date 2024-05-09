@@ -74,7 +74,7 @@
     display: block;}
   #home #picture_of_me{width: 300px;}
   section{margin: 0% 1%;
-    
+    float: left;
     height: 100%;
     width: 63%;}
   #figure{height: 110px;}
