@@ -18,6 +18,7 @@
     width: 98%;}
   #qrcode{height: 100px;}
   #figure{height: 100px;}
+  #video{width:400px}
   #heidelberg-picture{width: 150px;}
   #lausanne-picture{width: 150px;}
   #logo{height: 60px;}
@@ -47,6 +48,7 @@
     width: 98%;}
   #qrcode{height: 100px;}
   #figure{height: 120px;}
+  #video{width:500px}
   #heidelberg-picture{width: 200px;}
   #lausanne-picture{width: 200px;}
   #logo{height: 90px;}
@@ -78,6 +80,7 @@
     height: 100%;
     width: 63%;}
   #figure{height: 110px;}
+  #video{width:400px}
   #heidelberg-picture{width: 200px;}
   #lausanne-picture{width: 200px;}
   #logo{height: 80px;}
@@ -109,6 +112,7 @@
     width: 63%;
     height: 100%;}
   #figure{height: 140px;}
+  #video{width:500px}
   #heidelberg-picture{width: 200px;}
   #lausanne-picture{width: 200px;}
   #logo{height: 80px;}
@@ -141,6 +145,7 @@
     height: 100%;
     width: 63%;}
   #figure{height: 180px;}
+  #video{width:700px}
   #heidelberg-picture{width: 200px;}
   #lausanne-picture{width: 200px;}
   #logo{height: 80px;}
